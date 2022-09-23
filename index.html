@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--AOS Library-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+        integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous"/>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous"/>
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+    <title>BinWagon | Home</title>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark"  data-aos="fade-right" data-aos-duration="1000">
+        <div class="container">
+            <a href="index.html" class="navbar-brand">BinWagon</a>
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link active">
+                            HOME
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="about.html" class="nav-link">
+                            ABOUT US
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="tech.html" class="nav-link">
+                            TECHNOLOGY
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="business.html" class="nav-link">
+                            BUSINESS
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="sports.html" class="nav-link">
+                            SPORTS
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contact.html" class="nav-link">
+                            CONTACT
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Showcase(Content) Slide / Carousel -->
+    <section id="showcase">
+        <div id="binCarousel" class="carousel slide" data-bs-ride="carousel" >
+            <ol class="carousel-indicators">
+                <li data-bs-target="#binCarousel" data-bs-slide-to="0" class="active"></li>
+                <li data-bs-target="#binCarousel" data-bs-slide-to="1" ></li>
+                <li data-bs-target="#binCarousel" data-bs-slide-to="2" ></li>
+            </ol>
+            <div class="carousel-inner">
+                <!-- Carousel 1 -->
+                <div class="carousel-item carousel-image-1 active"> 
+                    <div class="container">
+                        <div class="carousel-caption mb-3">
+                            <h1 class="display-3 lead">Technology</h1>
+                            <a href="#" class="btn btn-light btn-lg">Subscribe</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Carousel 2 -->
+                <div class="carousel-item carousel-image-2">
+                    <div class="container">
+                        <div class="carousel-caption text-end mb-3 d-none d-sm-inline-block">
+                            <h1 class="display-3 lead">Business</h1>
+                            <a href="#" class="btn btn-light btn-lg ">Subscribe</a>
+                        </div>
+                        <div class="carousel-caption mb-3 d-inline-block d-sm-none">
+                            <h1 class="display-3 lead">Business</h1>
+                            <a href="#" class="btn btn-light btn-lg ">Subscribe</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Carousel 3 -->
+                <div class="carousel-item carousel-image-3">
+                    <div class="container">
+                        <div class="carousel-caption mb-3">
+                            <h1 class="display-3 lead">Sports</h1>
+                            <a href="#" class="btn btn-light text-dark btn-lg">Subscribe</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a href="#binCarousel" class="carousel-control-prev" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a href="#binCarousel" class="carousel-control-next" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+        </div>
+    </section>
+    
+    <!-- Home Section / Headline Cards -->
+    <section id="home-headings">
+        <div class="container-fluid m-5 mx-auto">
+            <div class="row justify-content-center g-2">
+                <div class="col-lg-4" data-aos="fade-right" data-aos-duration="1000">
+                    <div class="card">
+                        <div class="card-header bg-dark text-white">
+                            <h3>Technology</h3>
+                        </div>
+                        <div class="card-body">
+                            <img src="img/card_tech.jpg" alt="sports_image" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4" data-aos="fade-left" data-aos-duration="1000">
+                    <div class="card">
+                        <div class="card-header bg-dark text-white">
+                            <h3>Sports</h3>
+                        </div>
+                        <div class="card-body">
+                            <img src="img/card_sports.jpg" alt="sports_image" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4" data-aos="fade-right" data-aos-duration="1000">
+                    <div class="card">
+                        <div class="card-header bg-dark text-white">
+                            <h3>Business</h3>
+                        </div>
+                        <div class="card-body card-img-top">
+                            <img src="img/card_business.jpg" alt="sports_image" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Photo Gallery Heading-->
+    <section id="photo-gallery-heading" class="p-5">
+        <div class="dark-overlay">
+            <div class="row">
+                <div class="col">
+                    <div class="container pt-5" data-aos="fade-right" data-aos-duration="1000">
+                        <h1>Photo Gallery</h1>
+                        <p>Check our Photos</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Photo Gallery -->
+    <section id="gallery" class="py-5">
+        <div class="container">
+            <div class="row mb-4 g-2">
+                <div class="col-md-4" data-aos="fade-right" data-aos-duration="1000">
+                    <img src="https://source.unsplash.com/random/560x560" alt="" class="img-fluid">
+                </div>
+
+                <div class="col-md-4" data-aos="fade-left" data-aos-duration="1000">
+                    <img src="https://source.unsplash.com/random/561x561" alt="" class="img-fluid">
+                </div>
+    
+                <div class="col-md-4" data-aos="fade-right" data-aos-duration="1000">
+                        <img src="https://source.unsplash.com/random/562x562" alt="" class="img-fluid">
+                </div>
+            </div>
+    
+            <div class="row mb-4 g-2">
+                <div class="col-md-4" data-aos="fade-right" data-aos-duration="1000">
+                    <img src="https://source.unsplash.com/random/563x563" alt="" class="img-fluid">
+                </div>
+    
+                <div class="col-md-4" data-aos="fade-left" data-aos-duration="1000">
+                    <img src="https://source.unsplash.com/random/564x564" alt="" class="img-fluid">
+                </div>
+    
+                <div class="col-md-4" data-aos="fade-right" data-aos-duration="1000">
+                    <img src="https://source.unsplash.com/random/565x565" alt="" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section id="newsletter" class="text-center p-3 bg-dark text-white">
+        <h2 data-aos="fade-left" data-aos-duration="3000">Sign Up For Our Newsletter</h2>
+        <div class="container" data-aos="fade-left" data-aos-duration="3000">
+            <form class="row g-3 mt-3">
+                <div class="col-md-5">
+                    <label for="inputText" class="visually-hidden">Password</label>
+                    <input type="text" class="form-control" id="inputText" placeholder="Enter Name">
+                </div>
+                <div class="col-md-5">
+                    <label for="inputEmail" class="visually-hidden">Password</label>
+                    <input type="email" class="form-control" id="inputEmail" placeholder="Enter Email">
+                </div>
+                <div class="col-auto">
+                    <button type="submit" class="btn btn-primary mb-3">Submit</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="main-footer" class="text-center p-4">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <p>Copyright &copy; <span id="year"></span> BinWagon</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!--AOS Script-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous">
+    </script>
+    <!-- Current Year Script -->
+    <script>
+        document.getElementById("year").innerHTML = new Date().getFullYear();
+    </script>
+</body>
+</html>

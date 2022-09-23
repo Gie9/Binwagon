@@ -1,0 +1,210 @@
+body {
+    overflow-x: hidden;
+}
+
+/* General Styles */
+.article-content p {
+    font-size: 1.25rem;
+    color: #353535;
+    line-height: 1.625;
+}
+
+.card:hover {
+    -ms-transform: scale(1.03);
+    /* IE 9 */
+    -webkit-transform: scale(1.03);
+    /* Safari 3-8 */
+    transform: scale(1.03);
+}
+
+
+/* INDEX STYLES */
+/* Navigation  Styles */
+.navbar .nav-link {
+   font-size: 14px;
+   padding-left: 1rem !important;
+   padding-right: 1rem !important; 
+}
+
+.navbar .nav-item .active {
+    border-left: #444 3px solid;
+}
+
+
+/* Carousel Styles */
+.carousel-item {
+    height: 450px;
+}
+
+.carousel-image-1 {
+    background: url(img/image1.jpg);
+    background-size: cover;
+}
+
+.carousel-image-2 {
+    background: url(img/image2.jpg);
+    background-size: 100% 100%;
+}
+
+.carousel-image-3 {
+    background: url(img/image3.jpg);
+    background-size: cover;
+}
+
+
+/* Home Styles */
+.card {
+    min-height: 550px;
+}
+
+.card-body img {
+    height: 100%;
+}
+
+/* Photo Gallery Heading Styles */
+#photo-gallery-heading {
+    position: relative;
+    min-height: 180px;
+    width: 100%;
+    background: url('img/lights.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: #fff;
+}
+
+.dark-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.6);
+}
+
+/* END OF INDEX STYLES */
+
+/* ABOUT US STYLES */
+/* Page Header */
+#page-header {
+    height: 200px;
+    background: url('img/image2_1.jpg');
+    background-position: 0 -360px;
+    background-attachment: fixed;
+    color: #fff;
+    border-bottom: 1px #eee solid;
+    padding-top: 50px;
+}
+
+#video-play {
+    position: relative;
+    min-height: 200px;
+    background: url('../img/media.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: 0 -300px;
+    text-align: center;
+    color: #fff;
+}
+
+#icon-boxes .card {
+    min-height: 100px;
+}
+
+/* END OF ABOUT US STYLES */
+
+/* TECH STYLES */
+/* Header */
+#page-header-tech {
+    height: 200px;
+    background: url('img/image1.jpg');
+    background-position: 0 -360px;
+    background-attachment: fixed;
+    color: #fff;
+    border-bottom: 1px #eee solid;
+    padding-top: 50px;
+}
+
+
+/* END OF TECH STYLES */
+
+
+/* BUSINESS STYLES */
+/* Header */
+#page-header-business {
+    height: 200px;
+    background: url('img/image2.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    color: #fff;
+    border-bottom: 1px #eee solid;
+    padding-top: 50px;
+}
+
+#business-economy-header {
+    position: relative;
+    min-height: 180px;
+    width: 100%;
+    background: url('img/media.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: #fff;
+}
+
+
+#gcashImg {
+    max-height: 650px;
+    width: 100%;
+}
+
+#business-articles .card img {
+    height: 434px;
+}
+
+#business-articles .card {
+    height: 600px;
+}
+
+
+/* END OF BUSINESS STYLES */
+
+/* SPORTS STYLES */
+/* Header */
+#page-header-sports {
+    height: 200px;
+    background: url('img/image3.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    color: #fff;
+    border-bottom: 1px #eee solid;
+    padding-top: 50px;
+}
+
+
+/* END OF SPORTS STYLES */
+
+
+
+
+/* CONTACT US STYLES */
+hr{
+    color: black;
+}
+
+#staff img {
+    height: 180px;
+    width: 180px;
+}
+
+/* END OF CONTACT US STYLES */
+
+
+
+/* Footer Styles */
+#main-footer {
+    background: #000;
+    color: #fff;
+}
